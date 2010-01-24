@@ -1,0 +1,15 @@
+/*----------------------------------------------------------------------------------------------------
+Threshold filter
+I found this filter on the Apple Developer Mailing List: http://lists.apple.com/archives/quartz-dev/2009/Apr/msg00069.html
+Pixel values <= threshold = 0, otherwise 1.0
+----------------------------------------------------------------------------------------------------*/
+kernel vec4 main(sampler inputA, float threshold)
+{
+vec4 pixel = unpremultiply(sample(inputA, samplerCoord(inputA)));
+
+pixel.r = step(threshold, pixel.r);
+pixel.g = pixel.r;
+pixel.b = pixel.r;
+pixel.a = 1.0;
+return pixel;
+}

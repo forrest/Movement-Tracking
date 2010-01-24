@@ -1,0 +1,7 @@
+//
+// Prefix header for all source files of the 'Movement Detection Test' target in the 'Movement Detection Test' project
+//
+
+#ifdef __OBJC__
+    #import <Cocoa/Cocoa.h>
+#endif

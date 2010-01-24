@@ -13,6 +13,7 @@
 		8D11072F0486CEB800E47090 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */; };
 		A80BDB95110CF17500D01E57 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A80BDB94110CF17500D01E57 /* QuartzCore.framework */; };
 		A80BDB9C110CF1AC00D01E57 /* QuickTime.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A80BDB9B110CF1AC00D01E57 /* QuickTime.framework */; };
+		A80BDBAF110CF36600D01E57 /* README.txt in Resources */ = {isa = PBXBuildFile; fileRef = A80BDBAE110CF36600D01E57 /* README.txt */; };
 		A81259EF1101A31300F27A60 /* ThresholdFilter.cikernel in Resources */ = {isa = PBXBuildFile; fileRef = A81259EE1101A31300F27A60 /* ThresholdFilter.cikernel */; };
 		A8125A161101A32600F27A60 /* ThresholdFilter.m in Sources */ = {isa = PBXBuildFile; fileRef = A8125A151101A32600F27A60 /* ThresholdFilter.m */; };
 		A86D8EC710FEF11500F02FA5 /* CameraInterface.m in Sources */ = {isa = PBXBuildFile; fileRef = A86D8EC210FEF11500F02FA5 /* CameraInterface.m */; };
@@ -35,6 +36,7 @@
 		A80BDA08110CEED600D01E57 /* test2_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = test2_Prefix.pch; sourceTree = "<group>"; };
 		A80BDB94110CF17500D01E57 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = /System/Library/Frameworks/QuartzCore.framework; sourceTree = "<absolute>"; };
 		A80BDB9B110CF1AC00D01E57 /* QuickTime.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuickTime.framework; path = /System/Library/Frameworks/QuickTime.framework; sourceTree = "<absolute>"; };
+		A80BDBAE110CF36600D01E57 /* README.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README.txt; sourceTree = "<group>"; };
 		A81259EE1101A31300F27A60 /* ThresholdFilter.cikernel */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = ThresholdFilter.cikernel; sourceTree = "<group>"; };
 		A8125A141101A32600F27A60 /* ThresholdFilter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ThresholdFilter.h; sourceTree = "<group>"; };
 		A8125A151101A32600F27A60 /* ThresholdFilter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ThresholdFilter.m; sourceTree = "<group>"; };
@@ -68,6 +70,7 @@
 			isa = PBXGroup;
 			children = (
 				A86D8ECA10FEF2B800F02FA5 /* ImageAdditions.h */,
+				A80BDBAE110CF36600D01E57 /* README.txt */,
 				A86D8ECB10FEF2B800F02FA5 /* ImageAdditions.m */,
 				A81259EE1101A31300F27A60 /* ThresholdFilter.cikernel */,
 				A86D8EEC10FEF41600F02FA5 /* CameraController.h */,
@@ -197,6 +200,7 @@
 				8D11072B0486CEB800E47090 /* InfoPlist.strings in Resources */,
 				1DDD58160DA1D0A300B32029 /* MainMenu.xib in Resources */,
 				A81259EF1101A31300F27A60 /* ThresholdFilter.cikernel in Resources */,
+				A80BDBAF110CF36600D01E57 /* README.txt in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

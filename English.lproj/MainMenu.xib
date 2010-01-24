@@ -1184,7 +1184,7 @@
 						<object class="NSSlider" id="395971230">
 							<reference key="NSNextResponder" ref="439893737"/>
 							<int key="NSvFlags">268</int>
-							<string key="NSFrame">{{18, 288}, {96, 21}}</string>
+							<string key="NSFrame">{{18, 266}, {96, 21}}</string>
 							<reference key="NSSuperview" ref="439893737"/>
 							<bool key="NSEnabled">YES</bool>
 							<object class="NSSliderCell" key="NSCell" id="864456205">
@@ -1210,7 +1210,7 @@
 						<object class="NSTextField" id="224818991">
 							<reference key="NSNextResponder" ref="439893737"/>
 							<int key="NSvFlags">268</int>
-							<string key="NSFrame">{{17, 315}, {98, 17}}</string>
+							<string key="NSFrame">{{17, 293}, {98, 17}}</string>
 							<reference key="NSSuperview" ref="439893737"/>
 							<bool key="NSEnabled">YES</bool>
 							<object class="NSTextFieldCell" key="NSCell" id="854824420">
@@ -1246,7 +1246,7 @@
 						<object class="NSTextField" id="418915777">
 							<reference key="NSNextResponder" ref="439893737"/>
 							<int key="NSvFlags">268</int>
-							<string key="NSFrame">{{124, 290}, {38, 17}}</string>
+							<string key="NSFrame">{{124, 268}, {38, 17}}</string>
 							<reference key="NSSuperview" ref="439893737"/>
 							<bool key="NSEnabled">YES</bool>
 							<object class="NSTextFieldCell" key="NSCell" id="196972730">
@@ -1262,7 +1262,7 @@
 						<object class="NSSlider" id="907722409">
 							<reference key="NSNextResponder" ref="439893737"/>
 							<int key="NSvFlags">268</int>
-							<string key="NSFrame">{{171, 286}, {96, 21}}</string>
+							<string key="NSFrame">{{171, 264}, {96, 21}}</string>
 							<reference key="NSSuperview" ref="439893737"/>
 							<bool key="NSEnabled">YES</bool>
 							<object class="NSSliderCell" key="NSCell" id="591168361">
@@ -1284,7 +1284,7 @@
 						<object class="NSTextField" id="221752937">
 							<reference key="NSNextResponder" ref="439893737"/>
 							<int key="NSvFlags">268</int>
-							<string key="NSFrame">{{170, 313}, {98, 17}}</string>
+							<string key="NSFrame">{{170, 291}, {98, 17}}</string>
 							<reference key="NSSuperview" ref="439893737"/>
 							<bool key="NSEnabled">YES</bool>
 							<object class="NSTextFieldCell" key="NSCell" id="538708102">
@@ -1300,7 +1300,7 @@
 						<object class="NSTextField" id="687614013">
 							<reference key="NSNextResponder" ref="439893737"/>
 							<int key="NSvFlags">268</int>
-							<string key="NSFrame">{{277, 289}, {38, 17}}</string>
+							<string key="NSFrame">{{277, 267}, {38, 17}}</string>
 							<reference key="NSSuperview" ref="439893737"/>
 							<bool key="NSEnabled">YES</bool>
 							<object class="NSTextFieldCell" key="NSCell" id="1073012660">
@@ -1309,6 +1309,22 @@
 								<string key="NSContents">1.1</string>
 								<reference key="NSSupport" ref="522721876"/>
 								<reference key="NSControlView" ref="687614013"/>
+								<reference key="NSBackgroundColor" ref="129959143"/>
+								<reference key="NSTextColor" ref="859548465"/>
+							</object>
+						</object>
+						<object class="NSTextField" id="997395732">
+							<reference key="NSNextResponder" ref="439893737"/>
+							<int key="NSvFlags">268</int>
+							<string key="NSFrame">{{17, 340}, {481, 17}}</string>
+							<reference key="NSSuperview" ref="439893737"/>
+							<bool key="NSEnabled">YES</bool>
+							<object class="NSTextFieldCell" key="NSCell" id="312354522">
+								<int key="NSCellFlags">68288064</int>
+								<int key="NSCellFlags2">272630784</int>
+								<string key="NSContents">Try and use these two sliders to maximize the details of the moving object.</string>
+								<reference key="NSSupport" ref="522721876"/>
+								<reference key="NSControlView" ref="997395732"/>
 								<reference key="NSBackgroundColor" ref="129959143"/>
 								<reference key="NSTextColor" ref="859548465"/>
 							</object>
@@ -2492,11 +2508,12 @@
 						<reference key="object" ref="439893737"/>
 						<object class="NSMutableArray" key="children">
 							<bool key="EncodedWithXMLCoder">YES</bool>
+							<reference ref="922445161"/>
+							<reference ref="687467075"/>
+							<reference ref="997395732"/>
 							<reference ref="395971230"/>
 							<reference ref="224818991"/>
 							<reference ref="418915777"/>
-							<reference ref="922445161"/>
-							<reference ref="687467075"/>
 							<reference ref="907722409"/>
 							<reference ref="221752937"/>
 							<reference ref="687614013"/>
@@ -2930,6 +2947,20 @@
 						<reference key="object" ref="402524360"/>
 						<reference key="parent" ref="922445161"/>
 					</object>
+					<object class="IBObjectRecord">
+						<int key="objectID">490</int>
+						<reference key="object" ref="997395732"/>
+						<object class="NSMutableArray" key="children">
+							<bool key="EncodedWithXMLCoder">YES</bool>
+							<reference ref="312354522"/>
+						</object>
+						<reference key="parent" ref="439893737"/>
+					</object>
+					<object class="IBObjectRecord">
+						<int key="objectID">491</int>
+						<reference key="object" ref="312354522"/>
+						<reference key="parent" ref="997395732"/>
+					</object>
 				</object>
 			</object>
 			<object class="NSMutableDictionary" key="flattenedProperties">
@@ -3139,6 +3170,8 @@
 					<string>481.IBPluginDependency</string>
 					<string>484.IBPluginDependency</string>
 					<string>485.IBPluginDependency</string>
+					<string>490.IBPluginDependency</string>
+					<string>491.IBPluginDependency</string>
 					<string>5.IBPluginDependency</string>
 					<string>5.ImportedFromIB2</string>
 					<string>56.IBPluginDependency</string>
@@ -3381,6 +3414,8 @@
 					<string>com.apple.InterfaceBuilder.CocoaPlugin</string>
 					<string>com.apple.InterfaceBuilder.CocoaPlugin</string>
 					<string>com.apple.InterfaceBuilder.CocoaPlugin</string>
+					<string>com.apple.InterfaceBuilder.CocoaPlugin</string>
+					<string>com.apple.InterfaceBuilder.CocoaPlugin</string>
 					<reference ref="9"/>
 					<string>com.apple.InterfaceBuilder.CocoaPlugin</string>
 					<reference ref="9"/>
@@ -3437,7 +3472,7 @@
 				</object>
 			</object>
 			<nil key="sourceID"/>
-			<int key="maxID">489</int>
+			<int key="maxID">491</int>
 		</object>
 		<object class="IBClassDescriber" key="IBDocument.Classes">
 			<object class="NSMutableArray" key="referencedPartialClassDescriptions">
@@ -3481,7 +3516,7 @@
 			</object>
 		</object>
 		<int key="IBDocument.localizationMode">0</int>
-		<string key="IBDocument.LastKnownRelativeProjectPath">../test3.xcodeproj</string>
+		<string key="IBDocument.LastKnownRelativeProjectPath">../MovementTrackingTest.xcodeproj</string>
 		<int key="IBDocument.defaultPropertyAccessControl">3</int>
 	</data>
 </archive>
